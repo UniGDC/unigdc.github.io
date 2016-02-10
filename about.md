@@ -13,3 +13,5 @@ You can find the source code for the Jekyll new theme at:
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll)
+
+Hello, everyone! Welcome to the University High School Game Development Club! The UniGDC is a club for those of you want to build your very own games! W
