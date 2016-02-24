@@ -1,2 +1,2 @@
 # unigdc.github.io
-University High School Game Development Club Official Website
+UniGDC Official Website
