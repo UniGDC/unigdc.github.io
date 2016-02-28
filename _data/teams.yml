@@ -1,0 +1,19 @@
+drugdealers:
+  name: Drug Dealers
+  
+  members:
+    -
+      name: daniel
+    -
+      name: kelly
+    -
+      name: ethan
+    -
+      name: jerry
+    -
+      name: peter
+      
+  description: >
+    Hey, you want some crazy drugs? Here comes a BIRD VISUAL NOVEL!
+    Welcome to Team Drug Dealers!
+    

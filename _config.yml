@@ -1,11 +1,16 @@
 # Site settings
-title: UniGDC Official Website
+title: UniGDC
 email: unigdc@gmail.com
-description: Welcome to University High School Game Development Club Official Website!
-baseurl: ""
-url: "http://unigdc.github.io"
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to UniGDC Club Website!
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://unigdc.github.io" # the base hostname & protocol for your site
 twitter_username: UniGDC
-github_username:  UniGDC
+github_username: UniGDC
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  hard_wrap: false

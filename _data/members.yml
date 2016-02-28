@@ -1,0 +1,24 @@
+-
+  id: daniel
+  name: Daniel Lee
+  role: Programmer
+  
+-
+  id: peter
+  name: Peter Park
+  role: Game Designer
+
+-
+  id: kelly
+  name: Kelly Kim
+  role: Illustrator, Scenario Writer
+
+-
+  id: ethan
+  name: Ethan Chin
+  role: Student
+
+-
+  id: jerry
+  name: Jerry Lee
+  role: Student

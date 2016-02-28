@@ -4,12 +4,17 @@
   {% include head.html %}
 
   <body>
-
-    {% include header.html %}
+    {% if page.url == "/" %}
+      {% include header.html %}
+    {% else %}
+      {% include header-post.html %}
+    {% endif %}
 
     <div class="page-content">
       <div class="wrapper">
-        {{ content }}
+        <div id="content">
+          {{ content }}
+        </div>
       </div>
     </div>
 

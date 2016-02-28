@@ -4,14 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Welcome to the *UniGDC* Website!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+UniGDC is a game development group, which has many different teams working on many different projects! Join us and let's *BUILD* together!
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
-
-Hello, everyone! Welcome to the University High School Game Development Club! The UniGDC is a club for those of you want to build your very own games! W
+Want to be a member of the club? Check this [requirement page](/requirement/) out!
