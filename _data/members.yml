@@ -1,24 +1,44 @@
 -
-  id: daniel
   name: Daniel Lee
-  role: Programmer
+  email: zu0107@gmail.com
+  github: RangHo
   
 -
-  id: peter
   name: Peter Park
-  role: Game Designer
+  email: sejinpark2013@gmail.com
+  github: cidcid2012
 
 -
-  id: kelly
   name: Kelly Kim
-  role: Illustrator, Scenario Writer
+  email: sbsinyeo@gmail.com
+  github: yakguk
 
 -
-  id: ethan
   name: Ethan Chin
-  role: Student
+  email: ethanchin0316@gmail.com
+  github: bobby16
 
 -
-  id: jerry
   name: Jerry Lee
-  role: Student
+  email: dkssud2496@gmail.com
+  github: dkssud2496
+  
+-
+  name: Levi Hose-Petilos
+  email: levipetilos808@gmail.com
+  github: Aldoral
+    
+-
+  name: Myles Freedman
+  email: mgrantfreedman@gmail.com
+  github: ssttaattiicc
+
+-
+  name: Connor Martino
+  email: vtario5@gmail.com
+  github: vtario5
+    
+-
+  name: Robert Lewis
+  email: gohan.lewis@gmail.com
+  github: robertdhum

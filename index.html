@@ -4,12 +4,20 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Blog</h1>
+  <h1 class="page-heading">Club Signup Form</h1>
+  <p>
+    You need to fill out this form in order to join us! <br>
+    We'll give you a mail back soon!
+  </p>
+  
+  <iframe src="https://docs.google.com/forms/d/1LvAFvlUj2v9gduHCqQbIpeSRkW70q8aAKmrH3yNj-es/viewform?embedded=true" width="640" height="500" frameborder="0" marginheight="0" marginwidth="0" class="signup-form">Loading...</iframe>
+  <p class="signup-form-palm"> Please click <a href="http://goo.gl/forms/tDwvQdsyj0">here</a> and finish the form. </p>
 
+  <h1 class="page-heading">Member Resources</h1>
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories.member-resources %}
       <li>
-        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} · {{ post.tags }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </li>
     {% endfor %}

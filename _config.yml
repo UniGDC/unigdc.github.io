@@ -1,6 +1,6 @@
 # Site settings
 title: UniGDC
-email: unigdc@gmail.com
+email: unigdc@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to UniGDC Club Website!
 baseurl: "" # the subpath of your site, e.g. /blog/
