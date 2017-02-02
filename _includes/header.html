@@ -1,18 +1,23 @@
-<div class="site-header">
 
-    <nav class="site-nav">
-        {% for page in site.pages %}
-          {% if page.title %}
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-    </nav>
+<!-- Intro Start -->
 
-    <h1 class="animated fadeInUp">
-     <span>
-      <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-     </span>
-    </h1>
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="brand-heading">&nbsp;</h1>
+            <img class="brand-heading-img" src="{{site.baseurl}}{{site.logo-of-the-year}}">
+            <h1 class="brand-heading">&nbsp;</h1>
+            <span class="intro-text">{{ content }}</span>
+            <h5>&nbsp;</h5>
+            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+              <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+            </a>
+          </div>
+        </div>
+    </div>
+  </div>
+</header>
 
-
-</div>
+<!-- Intro End -->

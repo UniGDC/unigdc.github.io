@@ -1,23 +1,20 @@
-<div class="footer" align="center">
-  <div class="col-1">
-    
-  </div>
-  <div class="col-1" align="center">
-    <span class="footer-logo" align="center">
-      UniGDC
-    </span>
-  </div>
-  <div class="col-1">
-    
-  </div>
-  <div class="no-float" align="center">
-    Copyright © UniGDC
-    <br>
-    All rights reserved.
-    <hr>
-  </div>
-  <div class="no-float" align="center">
-    Designed by <a href=http://diezcami.github.io target="_blank">Camille Diez</a><BR />
-    Powered by <a href=http://jekyllrb.com target="_blank">Jekyll</a>
-  </div>
-</div>
+<!-- Footer Start -->
+
+<footer>
+
+    {% include social-buttons.html %}
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+        <p>Copyright &copy; {{ site.author }} {{ site.time | date: "%Y" }}</p>
+        {% if site.keybase-in-footer %}
+        <p style="font-size: 16px;"><a href="https://keybase.io/{{site.keybase-username}}" target="_blank"><i
+                class="fa fa-key"></i> {{site.keybase-username}} on Keybase</a></p>
+        {% endif %}
+    </div>
+</footer>
+
+<p><br><br><br><br><br><br></p>
+
+<!-- Footer End -->
