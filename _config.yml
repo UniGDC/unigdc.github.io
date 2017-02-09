@@ -41,7 +41,7 @@ favicon: "/img/favicon.ico"
 
 black-favicon: "/img/logo_2016-2017.png"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "http://www.universityhigh.org/files/athletics/slideshow/athletics2.JPG"
 
 logo-of-the-year: "/img/logo_2016-2017.png"
 
@@ -58,14 +58,16 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Awesome games, made with ♥ and your hands."
-  - text: ""
+  - text: "Welcome to the UHS Game Development Club!"
+  - text: "University High School Game Development Club"
+  - text: "Regular meetings every Wednesdays at the Library!"
 
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/school-logo.jpg"
 
 ##############################
 # Color the browser elements #
 ##############################
-color-browser: "#000000"
+color-browser: "#3985FC"
 apple-status-bar-style: "black"
 
 ################
@@ -96,15 +98,13 @@ paginate: 5
 email-share: True
 fb-share: True
 twitter-share: True
-linkedin-share: True
-reddit-share: True
+linkedin-share: False
+reddit-share: False
 google-plus-share: True
 tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
-
-disqus-shortname: "panossakkos"
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
 syntax-highlight: True
 
@@ -113,12 +113,9 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/school-logo.jpg"
+    date: "2016-2017"
+    description: "The first year of the club!"
 
 # First image of the Timeline
 
@@ -129,6 +126,7 @@ timeline-img: "/img/timeline/default.png"
 ###########
 
 email: "unigdc@gmail.com"
+discord: "fCxNS4M"
 
 ################
 # Author Blurb #
@@ -138,18 +136,18 @@ email: "unigdc@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb_image: "/img/author.png"
+#author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+#author_blurb_image: "/img/author.png"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "email"
+  - title: "envelope"
     url: "mailto:unigdc@gmail.com"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+    url: "https://github.com/UniGDC"
   - title: "rss"
     url: "/feed.xml"
 
@@ -159,6 +157,20 @@ social:
 
 err-404-img: "/img/labtocat.png"
 
+#############
+# Resources #
+#############
+
+resources:
+  - title: "Club Constitution"
+    url: "/constitution.html"
+  - title: "List of Members"
+    url: "/memberslist.html"
+  - title: "Club Meeting Records Archive"
+    url: "/categories/hours.html"
+
+latest-constitution-url: "/docs/2017/02/01/constitution.html"
+
 ################################################################################
 
 # NB! Tread carefully if you want to change the variables below this point!
@@ -167,7 +179,8 @@ err-404-img: "/img/labtocat.png"
 
 pages_list:
   About: 'about'
-  Blog: 'latest-post'
+  Resources: 'resources'
+  Discord: 'discord'
   Timeline: 'timeline'
   Contact: 'contact'
 
@@ -187,3 +200,15 @@ sass:
 gems:
   - jekyll-paginate
   - jemoji
+
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  input:          GFM
+  hard_wrap:      false
+  footnote_nr:    1

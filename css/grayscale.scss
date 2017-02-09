@@ -468,3 +468,8 @@ body {
 .fourofour {
   border: 1px solid $primary-color !important;
 }
+
+.ul-ol-left ul,
+.ul-ol-left ol {
+    text-align: left ;
+}
