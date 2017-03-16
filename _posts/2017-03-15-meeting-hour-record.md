@@ -23,8 +23,8 @@ category: hours
      - Further discussion is needed for WebGL online version of the game.
  2. Finalized the UI and the UX.
      - Images of concept UI and UX
-     - ![User Interface](https://images.discordapp.net/eyJ1cmwiOiJodHRwczovL2Rpc2NvcmQuc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hdHRhY2htZW50cy8yMzM4MzIyMzQxMzY2MzMzNDQvMjkxNjU0MTQ0NTc2NTg1NzI4L0lNR18yNDcxLkpQRyJ9.aW7IntPrHKn2OO9aYKuFxCnQJu0)
-     - ![User Experience](https://images.discordapp.net/eyJ1cmwiOiJodHRwczovL2Rpc2NvcmQuc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hdHRhY2htZW50cy8yMzM4MzIyMzQxMzY2MzMzNDQvMjkxNjU1MjUwMTQwNzI1MjQ4L0lNR18yNDczLkpQRyJ9.LEVKoq1W0JpiZbvzUNWjyWYvwOk)
+     - User Interface (UI) concept image ![User Interface](https://images.discordapp.net/eyJ1cmwiOiJodHRwczovL2Rpc2NvcmQuc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hdHRhY2htZW50cy8yMzM4MzIyMzQxMzY2MzMzNDQvMjkxNjU0MTQ0NTc2NTg1NzI4L0lNR18yNDcxLkpQRyJ9.aW7IntPrHKn2OO9aYKuFxCnQJu0)
+     - User Experience (UX) concept image![User Experience](https://images.discordapp.net/eyJ1cmwiOiJodHRwczovL2Rpc2NvcmQuc3RvcmFnZS5nb29nbGVhcGlzLmNvbS9hdHRhY2htZW50cy8yMzM4MzIyMzQxMzY2MzMzNDQvMjkxNjU1MjUwMTQwNzI1MjQ4L0lNR18yNDczLkpQRyJ9.LEVKoq1W0JpiZbvzUNWjyWYvwOk)
  3. For more specific discussion, please refer to the #meetings text channel of UniGDC Discord server.
      - [Visit the main page](/) for a link to the server.
  
