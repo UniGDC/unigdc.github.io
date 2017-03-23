@@ -1,7 +1,7 @@
 ---
 layout: post
 section-type: post
-title: March 15th, 2017 Meeting Record
+title: March 22th, 2017 Meeting Record
 category: hours
 ---
 
@@ -10,7 +10,8 @@ category: hours
 ## UniGDC Official Meetings Record
 
 ### Board Members Present
- - Artist Representative was present.
+ - Daniel Lee, Executive Producer was not present. (Election Convention Meeting)
+ - Justin Cheng, Assistant Producer was not present. (Election Convention Meeting)
 
 ### Content
 
